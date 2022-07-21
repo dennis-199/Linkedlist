@@ -97,7 +97,7 @@ public class Linkedlist {
             return false;
 
         Node Current = head;
-        for (int i = 1; i < index; i++)
+        for (int i = 1; i < index-1; i++)
         {
             if (Current.getNext() == null)
                 return false;
